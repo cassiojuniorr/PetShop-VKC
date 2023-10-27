@@ -1,0 +1,54 @@
+.formContainer {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+
+.formWrap {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formWrap label {
+    margin-bottom: 10px;
+}
+
+.formDivBtns {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formBtns {
+    padding: 4px;
+    background-color: rgb(241, 248, 252);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 1px 3px 1px black;
+}
+
+.inputProdutos {
+    padding: 4px;
+    border: 1px solid #2e2e2e;
+    border-radius: 8px;
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+
+.tableContainer {
+    border: 1px solid #5c5c5c;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.tableTitle {
+    background-color: rgb(215, 234, 245);
+    padding: 2px;
+}

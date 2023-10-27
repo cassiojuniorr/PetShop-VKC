@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VKC Portifolho de Produtos</title>
+        <link rel="stylesheet" href="./styles/headerStyle.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./styles/cadastroHorarios.css">
+    </head>
+    <body>
+        <header class="containerHeader">
+            <img src="./imagens/logo.png" alt="logo" class="logo">
+            <nav class="wrapHeader">
+                <a href="./index.html">Página Inicial</a>
+                <a href="./sobreNos.html">Sobre Nós</a>
+                <a href="./cadastroHorarios.html">Cadastros e Horários</a>
+            </nav>
+        </header>
+        <section>
+            <form action="" style="margin-top: 12%;" class="formContainer">
+                <fieldset>
+                    <legend>Cadastrar um Produto</legend>
+                    <div class="formWrap">
+                        <label for="">
+                            Nome:
+                            <input type="text" class="inputProdutos" placeholder="digite aqui">
+                        </label>
+                        <label for="">
+                            Email:
+                            <input type="email" class="inputProdutos" placeholder="exemplo@exp.com" required>
+                        </label>
+                        <label for="">
+                            Data de nascimento:
+                            <input type="text" class="inputProdutos" placeholder="digite aqui">
+                        </label>
+                        <label for="">
+                            Cpf:
+                            <input type="text" class="inputProdutos" placeholder="000.000.000-00">
+                        </label>
+                        <label for="">
+                            Senha:
+                            <input type="password" class="inputProdutos" placeholder="digite aqui" required>
+                        </label>
+                    </div>
+                    <div class="formDivBtns">
+                        <button type="submit" class="formBtns">Cadastrar</button>
+                        <input type="reset" value="Limpar" class="formBtns">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <div>
+            <table class="tableContainer" border="1">
+                <tr>
+                    <th colspan="3" class="tableTitle">Tosa</th>
+                </tr>
+                <tr>
+                    <th>Preços</th>
+                    <th>Horários</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$ 45 - simples</td>
+                    <td>8h - 10h</td>
+                </tr>
+                <tr>
+                    <td>11h - 13h</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$ 120 - completa</td>
+                    <td>14h - 16h</td>
+                </tr>
+                <tr>
+                    <td>16h - 18h</td>
+                </tr>
+            </table>
+
+            <table class="tableContainer" border="1" style="margin-bottom: 40px;">
+                <tr>
+                    <th colspan="3" class="tableTitle">Banho</th>
+                </tr>
+                <tr>
+                    <th>Preços</th>
+                    <th>Horários</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$ 35 - simples</td>
+                    <td>7h - 9h</td>
+                </tr>
+                <tr>
+                    <td>10h - 12h</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">R$ 100 - completo</td>
+                    <td>13h - 15h</td>
+                </tr>
+                <tr>
+                    <td>16h - 18h</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
